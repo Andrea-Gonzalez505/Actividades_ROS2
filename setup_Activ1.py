@@ -14,7 +14,7 @@ setup(
 
         ('share/' + package_name, ['package.xml']),
 
-        # 👇 ESTA PARTE ES LA CLAVE
+        
         (os.path.join('share', package_name, 'launch'),
             glob(os.path.join('launch', '*.launch.py'))),
     ],
